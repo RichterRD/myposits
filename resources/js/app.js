@@ -12,7 +12,7 @@ InertiaProgress.init()
 Vue.use(plugin)
 Vue.use(Vuetify)
 Vue.prototype.$http = axios
-Vue.prototype.$route = (...args) => route(...args).url()
+Vue.mixin({ methods: { route } });
 
 const el = document.getElementById('app')
 
