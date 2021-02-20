@@ -16,6 +16,6 @@ export default {};
   position: absolute
   width: 90%
   height: 85%
-  background: red !important
+  background: #F1F8E9 !important
   z-index: 1 !important
 </style>
